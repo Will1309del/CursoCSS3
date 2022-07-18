@@ -1,0 +1,41 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Capa de contenido */
+
+.card{
+    background-color: royalblue;
+    color: white;
+    width: 200px; /*Aunque width tenga important no lo tomara en cuenta si tiene unmax width */
+   /* max-width: 300px; Sirve para el tener un maximo del width */
+    /* min-width: 200px;
+    height: auto; */
+    /* overflow: hidden; Esconde el desbordamiento tanto en imagenes como en txto */
+    padding: 50px 20px 30px 10px;
+    /* arriba, derecha, abajo, izquierda */
+    
+    /* padding: 20px 40px 60px; Toma en el cnetro a izquierda
+     */
+
+     /* border: 3px solid; Al no colocarle un color toma por defecto el del color del trexto  */
+
+     /* border-top-width: 20px; right bottom left */
+     /* border-width: top right bottom left; */
+
+     /* border-style: dotted; Estilo de puntos */
+        /* border-style: dashed; Estilo de giones */
+        /* border-style: double; Lineas Dobles */
+        /* border-style: groove; Estilo 3d con sombreado */
+        /* border-style: ridge; Este es sacandolo */
+
+        /* border-top-style: dashed; Se puede en los cuatro 
+        */
+
+        border-style: dotted dashed ridge solid;
+}
+
+.card--one{
+    margin: 40px;
+    /* top right bottom left margin */
+}

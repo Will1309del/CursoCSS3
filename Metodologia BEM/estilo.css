@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial;
+}
+
+
+.nav{
+    background-color: #264DE3;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.nav__link{
+    color: inherit; /*Los enlaces no heredan automaticamente*/
+    text-decoration: none; /*Quita el subrayaro de los links*/
+    margin-left: 20px;
+}
+
+.nav__logo{
+   height: 100%;
+}
+
+.nav__link--active{
+    border-bottom: 2px solid white;
+}
