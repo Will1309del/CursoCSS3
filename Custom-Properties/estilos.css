@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    --color-primary: royalblue;
+}
+
+body{
+    font-family: Arial;
+}
+
+.title{
+    color: var(--color-primary);
+}
+
+.paragraph{
+    color: royalblue;
+}
+
+.cta{
+    background-color: royalblue;
+    display: block;
+    padding: 20px 0;
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Custom Properties */
