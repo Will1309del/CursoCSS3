@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid black;
+    display: flex; /*Al utilizar display flex los elementos se ordenan desde el lado izquierdo hacia el derecho por defecto tienen display: block*/
+    /* flex-direction: column-reverse; Valor por defecto row existen row-reverse, column, column-reverse */
+    /* flex-wrap: nowrap; Propiedad principal nowrap, tiene wrap wrap-reverse */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.container2{
+    
+}
+
+.element{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    /* height: 100px; */
+}
+
+.element1{
+    background-color: crimson;
+}
+
+.element2{
+    background-color: purple;
+}
+
+.element3{
+    background-color: steelblue;
+}
+
+.element4{
+    background-color: crimson;
+}
+
+.element5{
+    background-color: purple;
+}
+
+.element6{
+    background-color: steelblue;
+}

@@ -1,10 +1,14 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
+*{
+    margin: 0;
+}
 /* Capa de contenido */
 
-.card{
+/* .card{
     background-color: royalblue;
     color: white;
     width: 200px; /*Aunque width tenga important no lo tomara en cuenta si tiene unmax width */
@@ -12,7 +16,7 @@ body{
     /* min-width: 200px;
     height: auto; */
     /* overflow: hidden; Esconde el desbordamiento tanto en imagenes como en txto */
-    padding: 50px 20px 30px 10px;
+    /* padding: 50px 20px 30px 10px; */
     /* arriba, derecha, abajo, izquierda */
     
     /* padding: 20px 40px 60px; Toma en el cnetro a izquierda
@@ -32,10 +36,40 @@ body{
         /* border-top-style: dashed; Se puede en los cuatro 
         */
 
-        border-style: dotted dashed ridge solid;
+        /* border-style: dotted dashed ridge solid; */
+/* }  */
+
+/* .card--one{ 
+     margin: 40px; 
+     top right bottom left margin 
+ } */
+
+/* Desbordamiento con los margenes verticales top/bottom */
+
+/* .main{
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 100px;
+    padding: 0.1px;
 }
 
-.card--one{
-    margin: 40px;
-    /* top right bottom left margin */
+.main__title{
+    margin-top: 50px;
 }
+
+
+.footer{
+    background-color: slateblue;
+    color: white;
+    margin-top: 50px;
+} */
+
+/* .card{
+    box-sizing: border-box;  */    /*Todo cuadra con el ancho y la altura colocado*/
+    /* background-color: royalblue;
+    color: white; 
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid chocolate;
+} */

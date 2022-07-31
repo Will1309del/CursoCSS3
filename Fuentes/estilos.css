@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&family=Poppins:ital@1&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #320DA8;
+    font-family: 'Edu QLD Beginner', cursive;
+
+}
+
+.card{
+    background-color: #fff;
+    padding-bottom: 30px;
+    width: 270px;
+    margin: 30px;
+}
+
+.card__texts{
+    padding: 30px 20px;
+}
+
+.card__img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__date{
+    font-weight: 100;
+}
+
+.card__title{
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card__paragraph{
+    margin-bottom: 20px;
+    line-height: 1.2; /*Separacion de texto*/
+}
+
+.card__cta{
+    display: inline-block;
+    background-color: #320DA8;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 100;
+}

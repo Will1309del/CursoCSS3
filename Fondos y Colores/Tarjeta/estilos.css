@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-color: #c0e4fc;  
+}
+
+.card{
+    width: 330px;
+    min-height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.24);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: .1px;
+}
+
+.card__person{
+    background-image: url('https://img1.ak.crunchyroll.com/i/spire2/4f2576a9281b601a152146aec41dfe961652868603_main.jpg');
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 105px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 7px solid white;
+    object-fit: cover;
+}
+
+.card__name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card__media{
+    margin-top: 40px;
+    width: 100%;
+    height: 90px;
+    border-top: 1px solid #b3a2a2;
+    display: flex;
+    justify-content: center;
+}
+
+.card__icon{
+    width: 25%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+
+.card_icon--facebook{
+    background-image: url('icons/facebook.svg');
+}
+
+.card_icon--twitter{
+    background-image: url('icons/twitter.svg');
+}
+
+.card_icon--youtube{
+    background-image: url('icons/youtuve.svg');
+}
