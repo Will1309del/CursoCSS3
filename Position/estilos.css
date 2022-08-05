@@ -1,42 +1,42 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 90%;
-    margin: 20px auto;
-    border: 4px solid;
+.container {
+  width: 90%;
+  margin: 20px auto;
+  border: 4px solid;
 }
 
-.element{
-    width: 120px;
-    height: 120px;
-    margin-bottom: 15px;
+.element {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
 }
 
-.static{
-    background-color: tomato;
-    position: static; /*Es por defecto*/
+.static {
+  background-color: tomato;
+  position: static; /*Es por defecto*/
 }
 
-.relative{
-    background-color: steelblue;
-    position: relative;
-    /* Al usar relative se pueden usar */
-    /*  top: ;
+.relative {
+  background-color: steelblue;
+  position: relative;
+  /* Al usar relative se pueden usar */
+  /*  top: 100px;
         right: ;
         bottom: ;
         left: ;  */
 }
 
-.absolute{
-    background-color: teal;
-    /* position: absolute; Usa la posicion mas cercana pero quita su lugar asignado */
+.absolute {
+  background-color: teal;
+  /* position: absolute; Usa la posicion mas cercana pero quita su lugar asignado */
 }
 
-.fixed{
-    background-color: crimson;
-    /* position: fixed; Deja pegado el elemento al vh o vw */
-    /* z-index: 1; Sirve para colocar un elemento sobre otro */
+.fixed {
+  background-color: crimson;
+  /* position: fixed; Deja pegado el elemento al vh o vw */
+  /* z-index: 1; Sirve para colocar un elemento sobre otro */
 }
