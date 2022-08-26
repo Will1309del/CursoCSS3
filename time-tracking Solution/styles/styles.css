@@ -2,9 +2,7 @@
 
 html{
     font-family: "Rubik", sans-serif;
-
     /* Colors */
-
     --blue-100: hsl(236, 100%, 87%);
     --blue-200: hsl(235, 45%, 61%);
     --blue-300: hsl(195, 74%, 62%);
@@ -18,8 +16,6 @@ html{
     --orange-400: hsl(43, 84%, 65%);
 
     /* Fonts */
-
-    /* Fonts */
     --font-size-h1: clamp(2.4rem, 1.8366rem + 1.5023vw, 4rem);
     --font-size-time-window: 1.8rem;
     --font-size-activity-name: 1.8rem;
@@ -27,18 +23,12 @@ html{
     --font-size-activity-window: 1.5rem;
   
     /* Z-indexes */
-  
     --z-index-top: 10;
     --z-index-middle: 5;
     --z-index-bottom: 1;
   
     /* Border Radius */
-  
     --br: 1.5rem;
-
-    
-
-
 }
 
 body{
@@ -166,8 +156,7 @@ section.activity-tracker {
         flex-flow: column nowrap;
         gap: 2.1rem;
         padding: 2.6rem 3.2rem 3.2rem;
-    }
-    
+    }  
 }
 
 .activity-tracker__option{
